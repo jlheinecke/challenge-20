@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "TechTrek.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "10x10"
     },
     {
-      "src": "logo512.png",
+      "src": "RelationalResearch.png",
       "type": "image/png",
       "sizes": "512x512"
     }
