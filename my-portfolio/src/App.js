@@ -35,14 +35,16 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import './App.css';
+
 
 const App = () => {
   return (
     <Router>
-      <Header />
+      <Header className="App-header" />
       <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
+      <Routes className="App-link">
+        <Route  path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 const Header = () => {
   return (
-    <header>
-      <h1>My Portfolio</h1>
+    <header className='App-header'>
+      <h1>James Heinecke</h1>
     </header>
   );
 };
